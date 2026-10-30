@@ -4,3 +4,15 @@
         a, 
         span
             font-weight: bold
+.page__home
+    @include media-breakpoint-up(desktop)
+        .hero--with-image
+            .content
+                flex-direction: column-reverse
+                padding-bottom: $spacing-5
+                padding-top: $spacing-6
+                .hero-text
+                    h1
+                        @include body-text
+                .hero-image
+                    width: columns(4)
