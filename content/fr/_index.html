@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-10-30T18:12:53+01:00
-lastmod: 2026-10-30T19:44:24+01:00
+lastmod: 2026-10-30T19:52:32+01:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-10-30T18:12:53+01:00
-    updated_at: 2026-10-30T19:44:24+01:00
+    updated_at: 2026-10-30T19:52:32+01:00
     published_at: 2026-10-30T18:12:53+01:00
 search:
   id: "3592bf23-277a-4b25-a82e-217053610c9b"
@@ -100,21 +100,6 @@ contents_reading_time:
     moins d'une minute
 contents:
   - kind: block
-    template: chapter
-
-
-    ranks:
-      base: 2
-    top:
-      active: false
-
-    data:
-      layout: no_background
-
-
-
-
-  - kind: block
     template: call_to_action
     title: >-
       Notre mission
@@ -132,7 +117,7 @@ contents:
       description: >-
         <p>Le Public Finance Lab conduit de la recherche sur les finances publiques, pour une gestion des finances publiques conciliant modèle économique durable et soutenabilité budgétaire. Nos travaux visent à alimenter le débat démocratique, en favorisant le dialogue entre la communauté scientifique, la société civile, les médias, et les responsables politiques.<a href="https://publicfinancelab.eu/qui-nous-sommes/"></a></p>
     data:
-      layout: accent_background
+      layout: no_background
       text: >-
         <p>Le Public Finance Lab conduit de la recherche sur les finances publiques, pour une gestion des finances publiques conciliant modèle économique durable et soutenabilité budgétaire. Nos travaux visent à alimenter le débat démocratique, en favorisant le dialogue entre la communauté scientifique, la société civile, les médias, et les responsables politiques.<a href="https://publicfinancelab.eu/qui-nous-sommes/"></a></p>
       buttons:
@@ -143,6 +128,57 @@ contents:
             /qui-nous-sommes
           target_blank: false
 
+
+  - kind: block
+    template: posts
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        author: false
+        categories: false
+        date: false
+        image: true
+        reading_time: false
+        subtitle: true
+        summary: true
+
+      posts:
+
+      quantity: 0
+
+
+  - kind: block
+    template: projects
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      mode: all
+      all: true
+      layout: grid
+      options:
+        categories: true
+        image: true
+        subtitle: true
+        summary: false
+        year: true
+
+      projects:
+
+      quantity: 0
 
 
 ---
