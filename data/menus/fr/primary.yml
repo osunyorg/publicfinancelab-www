@@ -64,4 +64,13 @@ items:
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Qui nous sommes
+  slug: qui-nous-sommes
+  target: "/qui-nous-sommes/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/qui-nous-sommes"
+  file: content/fr/pages/qui-nous-sommes/_index.html
 
