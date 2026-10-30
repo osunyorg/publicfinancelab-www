@@ -10,15 +10,6 @@ items:
   descendants_targets: []
   path: "/pages/qui-nous-sommes"
   file: content/fr/pages/qui-nous-sommes/_index.html
-- title: Actualités
-  slug: actualites
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Publications
   slug: publications
   target: "/publications/"
@@ -28,4 +19,13 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
+- title: Actualités
+  slug: actualites
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 
