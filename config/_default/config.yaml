@@ -13,6 +13,16 @@ params:
   home:
     head:
       title: site
+  posts:
+    single:
+      meta:
+        position: hero
+        options:
+          updated_at: false
+          reading_time: false
   projects:
     index:
       layout: list
+    single:
+      meta:
+        position: hero
