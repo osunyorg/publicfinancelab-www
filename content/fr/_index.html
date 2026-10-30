@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2026-10-30T18:12:53+01:00
-lastmod: 2026-10-30T19:56:14+01:00
+lastmod: 2026-10-30T20:11:33+01:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2026-10-30T18:12:53+01:00
-    updated_at: 2026-10-30T19:56:14+01:00
+    updated_at: 2026-10-30T20:11:33+01:00
     published_at: 2026-10-30T18:12:53+01:00
 search:
   id: "3592bf23-277a-4b25-a82e-217053610c9b"
@@ -31,7 +31,7 @@ search:
     Accueil
 
   body: >-
-    <p>Notre mission  <br>Le Public Finance Lab conduit de la recherche sur les finances publiques, pour une gestion des finances publiques conciliant modèle économique durable et soutenabilité budgétaire. Nos travaux visent à alimenter le débat démocratique, en favorisant le dialogue entre la communauté scientifique, la société civile, les médias, et les responsables politiques.</p>  <p>En savoir plus <br>/qui-nous-sommes</p>
+    <p>Notre mission  <br>Le Public Finance Lab conduit de la recherche sur les finances publiques, pour une gestion des finances publiques conciliant modèle économique durable et soutenabilité budgétaire. Nos travaux visent à alimenter le débat démocratique, en favorisant le dialogue entre la communauté scientifique, la société civile, les médias, et les responsables politiques.</p>  <p>En savoir plus <br>/qui-nous-sommes</p>  <p> Actualités </p>  <p> Publications </p>
 
 breadcrumbs:
   - title: >-
@@ -99,7 +99,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 15
+  seconds: 16
   text: >-
     moins d'une minute
 contents:
@@ -135,12 +135,21 @@ contents:
 
   - kind: block
     template: posts
-
-
+    title: >-
+      Actualités
+    slug: >-
+      actualites
     ranks:
       base: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Actualités
+        heading: 2
+        link: "/actualites/"
 
     data:
       mode: all
@@ -156,29 +165,43 @@ contents:
         summary: true
 
       posts:
+        - permalink: ""
+          path: "/posts/2026/2026-10-30-presentation-de-riches-ensemble-dans-zoom-zoom-zen"
+          slug: "presentation-de-riches-ensemble-dans-zoom-zoom-zen"
+          file: "content/fr/posts/2026/2026-10-30-presentation-de-riches-ensemble-dans-zoom-zoom-zen.html"
+          name: >-
+            Présentation de Riches Ensemble! dans Zoom Zoom Zen
 
-      quantity: 0
+      quantity: 1
 
 
   - kind: block
     template: projects
-
-
+    title: >-
+      Publications
+    slug: >-
+      publications
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Publications
+        heading: 2
+        link: "/publications/"
 
     data:
       mode: all
       all: true
-      layout: grid
+      layout: list
       options:
         categories: true
         image: true
         subtitle: true
-        summary: false
+        summary: true
         year: true
 
       projects:
