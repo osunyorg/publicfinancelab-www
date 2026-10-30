@@ -18,3 +18,7 @@ Cache-Control = "max-age=31536000, no-transform, public"
 from = "/projets/index.html"
 to = "/publications/"
 
+[[redirects]]
+from = "/actualites/2026-10-30-presentation-de-riches-ensemble-dans-zoom-zoom-zen/index.html"
+to = "/actualites/2026-10-30-presentation-de-riches-ensemble/"
+
