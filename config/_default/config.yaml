@@ -4,7 +4,7 @@ params:
   breadcrumb:
     position: after-hero
   summary:
-    position: hero
+    position: content
   search:
     active: true
   logo:
@@ -20,9 +20,12 @@ params:
         options:
           updated_at: false
           reading_time: false
+          with_labels: false
   projects:
     index:
       layout: list
     single:
       meta:
         position: hero
+        options:
+          with_labels: false
